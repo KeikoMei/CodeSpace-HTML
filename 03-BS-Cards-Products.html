@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bootstrap Cards - Products</title>
+
+    <!-- Bootstrap CDN link (CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  </head>
+
+  <body>
+
+    <!-- Create a product page using Bootstrap card components. Save this file as "products.html" 
+     and make sure to include a link to this web page in the navigation bar you created in the previous activity. -->
+
+
+
+    <!-- Navbar: https://getbootstrap.com/docs/5.3/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="03-BS-Cards-products.html">Succulent world</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./05-BS-Cards-About.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./03-BS-Cards-Products.html">Products Category 1</a></li>
+                  <li><a class="dropdown-item" href="#">Products Category 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Products Category 3</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./04-BS-Cards-Blog.html">Blog</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                 <a class="nav-link" href="#">Login</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Register</a>
+               </li>
+           </ul>
+             </span>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="container">
+
+        <div class="row">
+          <h1>Products</h1>
+        </div>
+
+        <div class="row gx-3">
+          
+          <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card mb-4 mx-2">
+              <img src="./succulent.jpg" class="card-img-top" alt="succulent">
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card mb-4 mx-2">
+              <img src="./succulent.jpg" class="card-img-top" alt="succulent">
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-success" >Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <div class="card mb-4 mx-2" >
+              <img src="./succulent.jpg" class="card-img-top" alt="succulent">
+              <div class="card-body">
+                <h5 class="card-title">Product 3</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      
+      </div>
+    
+    <!-- Bootstrap CDN link (Javascript) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    </body>
+</html>
